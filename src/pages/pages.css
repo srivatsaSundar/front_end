@@ -1,0 +1,43 @@
+.username{
+    font-style: italic;
+    color: #fff;
+    margin-bottom: 0.5rem;
+    margin-top: auto;
+    padding: 0.5rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+.Email{
+    font-style: italic;
+    color: #fff;
+    margin-bottom: 0.5rem;
+    margin-top: auto;
+    padding: 0.5rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+.Password{
+    font-style: italic;
+    color: #000;
+    margin-bottom: 0.5rem;
+    margin-top: auto;
+    padding: 0.5rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+.btn{
+    margin: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-style: italic;
+    margin-left: 730px;
+    margin-top: 20px;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
