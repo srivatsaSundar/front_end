@@ -11,6 +11,7 @@ padding: 0.2rem calc((100vw - 1000px) / 2);
 z-index: 12;
 /* Third Nav */
 /* justify-content: flex-start; */
+padding-left: 800px;
 `;
 
 export const NavLink = styled(Link)`
@@ -70,7 +71,7 @@ export const NavBtnLink = styled(Link)`
 border-radius: 4px;
 background: #fff;
 padding: 10px 22px;
-color: #;
+color: #000;
 outline: none;
 border: none;
 cursor: pointer;

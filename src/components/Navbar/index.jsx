@@ -6,20 +6,22 @@ return (
 	<>
 	<Nav>
 		<Bars />
-
 		<NavMenu>
+		<NavLink to='/' activeStyle>
+			<strong>TextSlice</strong>
+		</NavLink>
 		<NavLink to='/about' activeStyle>
 			About
 		</NavLink>
 		<NavLink to='/service' activeStyle>
 			Services
 		</NavLink>
-		<NavLink to='/signup' activeStyle>
-			Sign Up
+		<NavLink to='/login' activeStyle>
+			Log In
 		</NavLink>
         </NavMenu>
         <NavBtn>
-            <NavBtnLink to='/signin'>Sign In</NavBtnLink>
+            <NavBtnLink to='/signup'>Sign Up</NavBtnLink>
         </NavBtn>
 	</Nav>
 	</>

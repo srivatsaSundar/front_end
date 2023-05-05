@@ -20,8 +20,11 @@ function DragDrop({ open }) {
           </p>
         ) : (
           <p className="dropzone-content">
-            Drag & Drop some files here, or click to select files
+            Drag & Drop some files here, or click to select files<br></br>
+            <br></br>
+            <strong>Upload Doc or PDF files only</strong>
           </p>
+          
         )}
         <button type="button" onClick={open} className="btn">
           Upload Files
